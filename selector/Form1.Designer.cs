@@ -38,7 +38,7 @@
             // combodistro
             // 
             combodistro.FormattingEnabled = true;
-            combodistro.Location = new Point(141, 42);
+            combodistro.Location = new Point(142, 27);
             combodistro.Name = "combodistro";
             combodistro.Size = new Size(464, 23);
             combodistro.TabIndex = 0;
@@ -70,12 +70,13 @@
             linkdescarga.TabIndex = 3;
             linkdescarga.TabStop = true;
             linkdescarga.Text = "linkLabel1";
+            linkdescarga.LinkClicked += linkdescarga_LinkClicked;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(760, 470);
             Controls.Add(linkdescarga);
             Controls.Add(piclogo);
             Controls.Add(lbldescripcion);
